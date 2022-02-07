@@ -15,7 +15,6 @@ app.use('/api/v1/tasks', taskRoutes);
 const start = async () => {
     try {
         await connectDB();
-        // listen for requests
         app.listen(port, console.log(`Server is listening on port ${port}`));
     } catch (error) {
         console.error(error);
