@@ -1,13 +1,17 @@
 {
-  "name": "jobs",
+  "name": "task-manager",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple task manager app that runs in the browser. Users can add tasks, edit tasks, mark tasks complete and delete tasks",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Jim Ezesinachi",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -16,5 +20,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
