@@ -1,12 +1,13 @@
 {
-  "name": "06-jobs-api",
+  "name": "jobs-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Job Search API",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "author": "",
+  "author": "Jim Ezesinachi",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
